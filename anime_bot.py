@@ -86,7 +86,7 @@ def episode(update: Update, context: CallbackContext) -> None:
 
 def main():
     # Replace 'YOUR_TOKEN' with your bot's token
-    updater = Updater("YOUR_TOKEN")
+    updater = Updater("6426712374:AAFU9KhMK4Ahf5U6PJ_Bf1OBiVhCk3OFY2U")
 
     updater.dispatcher.add_handler(CommandHandler("start", start))
     updater.dispatcher.add_handler(CommandHandler("search", search))
